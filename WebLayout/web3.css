@@ -1,0 +1,42 @@
+style{
+    display: flex;
+}
+body{
+    display: flex;
+    min-height: 100vh;
+    flex-direction: row;
+    margin: 0;
+}
+.outer-col-1{
+    background: #d7e8d4;
+    flex: 1;
+}
+.outer-col-2{
+    display: flex;
+    flex-direction: column;
+    flex: 5;
+}
+.inner-row{
+    display: flex;
+    flex-direction: row;
+}
+.inner-col{
+    flex: 4;
+}
+.inner-row aside{
+    background: beige;
+    flex: 1;
+}
+.inner-row article{
+    height: 60vh;
+}
+header,footer{
+    background: yellowgreen;
+    height: 20vh;
+}
+header,nav,footer,aside,article{
+    padding: 1em;
+}
+
+
+
